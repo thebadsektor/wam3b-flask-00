@@ -13,3 +13,8 @@ def greet():
 @app.route('/knock-knock')
 def knock_knock():
     return "<p>Who's there?</p>"
+
+@app.route('/sample')
+def sample():
+    return "<p>sample</p>"
+    
